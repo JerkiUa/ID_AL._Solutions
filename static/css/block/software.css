@@ -1,0 +1,125 @@
+.software{
+    max-width: 1920px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.software-container{
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180px;
+    height: auto;
+    margin-bottom: 255px;
+}
+.software-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 63px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+
+.software-heading-text{
+    max-width: 540px;
+    height: 83px;
+    
+    
+}
+
+.software-heading-text p{
+    color: var(--title, #131414);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 145.4%;
+    text-transform: uppercase;
+}
+
+.software-heading-text h2{
+    color: #217191;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    vertical-align: bottom;
+    display: table-cell;
+
+}
+
+.software-heading button{
+    width: 165px;
+    height: 62px;
+    border-radius: 60px;
+    background: var(--dark-green, #217191);
+    color: var(--white, #FFF);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.software-cards{
+    display: grid;
+    /* Автоматически заполняем на всю ширину grid-контейнера */
+    grid-template-columns: repeat(auto-fill, 400px);
+    width: 100%;
+    max-width: 1280px; /* Ширина grid-контейнера */
+    justify-content: center;
+    justify-items: center; /* Размещаем карточку по центру */
+    column-gap: 30px; /* Отступ между колонками */
+    row-gap: 20px; /* Отступ между рядами */
+    margin: 80px auto 0 auto;
+    height: auto;
+}
+.software-card{
+    text-align: center;
+}
+.software-card p{
+    color: var(--title, #131414);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166.9%;
+}
+.software-card h3{
+    color: var(--title, #131414);
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.software-card img{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media(max-width:740px){
+    .software-heading button{
+        display: none;
+    }
+    .software-heading-text h2{
+        font-size: 27px;
+    }
+}
+@media(max-width:500px){
+    .software-cards{
+        grid-template-columns: repeat(auto-fill, 300px);
+    }
+    .software-card p{
+        font-size: 15px;
+    }
+}

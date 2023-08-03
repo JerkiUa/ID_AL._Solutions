@@ -1,0 +1,121 @@
+.work-block{
+    max-width: 1780px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.work-card{
+    width: 400px;
+    height: 386px;
+    position: relative;
+}
+
+.work-cards{
+    display: flex;
+    max-width: 1280px;
+    flex-wrap: wrap;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.work-card-content{
+    width: 340px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.work-head-text h3{
+    color: var(--text, #494B51);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 145.4%; /* 20.356px */
+    text-transform: uppercase;
+}
+
+.work-head-text h2{
+    color: var(--dark-green, #217191);
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 0;
+}
+
+.work-head button{
+    width: 165px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    background: var(--dark-green, #217191);
+    color: var(--white, #FFF);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.work-head {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    position: relative;
+}
+
+.work-card-content h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 77px;
+    text-align: center;
+    height: 40px;
+    gap: 10px;
+    border-radius: 10px;
+    background: rgba(193, 206, 208, 0.48);
+    color: var(--white, #FFF);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 145.4%; /* 20.356px */
+    text-transform: uppercase;
+}
+
+.work-card-content h2{
+    color: var(--title, #131414);
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 166.9%; /* 41.725px */
+    padding-top: 10px;
+
+}
+
+.work-card-content p{
+    color: var(--title, #131414);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166.9%; /* 30.042px */
+    padding-top: 10px;
+}
+
+
+

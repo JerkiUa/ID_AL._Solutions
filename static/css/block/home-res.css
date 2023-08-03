@@ -17,34 +17,44 @@
     display: flex;
 }
 .home-img-conteiner{
-    max-width: 1920px;
+    width: 1465px;
     position: relative;
     height: 1000px;
-    /* overflow: visible;
-    overflow: hidden;
-    top: -850px; */
+    z-index: 0;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 .home-img {
-    width: 1200px;
-    height: 1150px;
-    background-image: url(/static/img/Group11586.png) ;
-    background-position: center center;
-    background-size: contain;
+    width: 1465px;
+    height: 1384.172px;
+    background-image: url(/static/img/img-res.png) ;
+    background-position: center center !important;
+    background-size: contain !important;
     background-repeat: no-repeat;
     position: absolute;
     z-index: 0;
-    left: -150px;
-    top: -240px;
+    left: 50%;
+    top: 700px;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
 .home-content{
     padding-top: 136px;
     padding-bottom: 277px;
-    padding-left: 13%;
-    
-
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .home-content h1{
@@ -54,7 +64,6 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    max-width: 620px;
     height: auto;
     line-height: 145.4%;
 }
@@ -72,6 +81,8 @@
     line-height: 145.4%;
     text-transform: uppercase;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .home-content p:nth-child(3){
@@ -83,6 +94,7 @@
     line-height: 166.9%;
     padding-top: 45px;
     padding-bottom: 45px;
+    max-width: 800px;
 }
 
 .home-content-btn button:nth-child(1){
@@ -116,32 +128,18 @@
 }
 
 @media(max-width:1300px){
-    .home-content{
-        padding-left: 7%;
-        max-width: 600px;
-    }
+    
 
-    .home-img{
+    /* .home-img{
         left: -180px;
-    }
+    } */
 }
 
 @media(max-width:930px){
-    .home-img{
-        left: -690px;
-        top: 280px;
-        z-index: 0;
-        background-image: url(/static/img/Grouphhh11587.png);
-        background-position: center center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 916px;
-        height: 665px;
-    }
+    
     .home-content{
-        position: relative;
-        z-index: 1;
         padding-top: 36px;
+        width: 600px;
     }
 }
 
@@ -152,6 +150,10 @@
     .home-content p:nth-child(3){
         font-size: 16px;
 
+    }
+    .home-content{
+        padding-top: 36px;
+        width: 400px;
     }
 
 }
@@ -174,6 +176,10 @@
     }
     .home{
         height: 600px;
+    }
+    .home-content{
+        padding-top: 16px;
+        width: 330px;
     }
     
 }

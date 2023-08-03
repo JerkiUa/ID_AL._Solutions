@@ -1,0 +1,29 @@
+.expertise{
+    max-width: 1780px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.expertise-header h3{
+    color: var(--title, #131414);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145.4%; /* 20.356px */
+    text-transform: uppercase;
+}
+
+.expertise-header h2{
+    color: var(--title, #131414);
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.expertise-header{
+    text-align: center;
+}

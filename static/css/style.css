@@ -1,0 +1,158 @@
+/* Общие стили текущего сайта */
+
+.current-page{
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #cfcfcf;
+}
+.home-link {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #2c2c2c;
+}
+
+.fsc{
+    font-family: 'Futura PT';
+    font-style: normal;
+    color: #2C2C2C;
+
+}
+
+.fsc-p{
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 140%;
+}
+
+.fsc-h2{
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+.quiz-title{
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    color: #2C2C2C;
+}
+
+.quiz-title-color{
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #21A5B5 !important;
+    margin-right: 0;
+    margin-left: auto;
+    text-align: right;
+}
+
+.quiz_block {
+    display:none;
+}
+
+.quiz_block.active {
+    display: block;
+}
+
+
+
+
+
+
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body{
+    overflow-x: hidden ;
+    
+}
+input  {outline:none;}
+textarea  {outline:none;}
+ul[class],
+ol[class] {
+  padding: 0;
+
+}
+.burger-menu {
+    cursor: pointer !important;
+}
+a { 
+    color: inherit;
+    cursor:pointer; 
+} 
+
+a:hover {
+    color: inherit;
+    cursor:pointer;  
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+  text-decoration: none;
+}
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+    list-style: none;
+    text-decoration: none;
+    
+}
+.hidden{
+    display: none;
+}
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+label, button {
+	cursor: pointer;
+}

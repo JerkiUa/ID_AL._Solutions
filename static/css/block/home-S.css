@@ -26,16 +26,16 @@
     
 }
 .home-img {
-    width: 1200px;
-    height: 1150px;
-    background-image: url(/static/img/Group11586.png) ;
+    width: 523.951px;
+    height: 649.276px;
+    background-image: url(/static/img/icons.png) ;
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
     z-index: 0;
-    left: -150px;
-    top: -240px;
+    left: 200px;
+    top: 40px;
     
 }
 
@@ -115,6 +115,17 @@
     transition: 0.3s;
 }
 
+@media(max-width:1550px){
+    .home-img{
+        left: 50px;
+    }
+}
+@media(max-width:1350px){
+    .home-img{
+        left: -100px;
+    }
+}
+
 @media(max-width:1300px){
     .home-content{
         padding-left: 7%;
@@ -122,21 +133,21 @@
     }
 
     .home-img{
-        left: -180px;
+        left: -120px;
     }
 }
 
 @media(max-width:930px){
     .home-img{
-        left: -690px;
+        left: -490px;
         top: 280px;
         z-index: 0;
-        background-image: url(/static/img/Grouphhh11587.png);
+        background-image: url(/static/img/icons.png);
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
-        width: 916px;
-        height: 665px;
+        width: 523.951px;
+        height: 649.276px;
     }
     .home-content{
         position: relative;

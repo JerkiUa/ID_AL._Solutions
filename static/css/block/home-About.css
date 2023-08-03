@@ -26,16 +26,16 @@
     
 }
 .home-img {
-    width: 1200px;
-    height: 1150px;
-    background-image: url(/static/img/Group11586.png) ;
+    width: 890.762px;
+    height: 634.179px;
+    background-image: url(/static/img/img-About.png) ;
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
     z-index: 0;
-    left: -150px;
-    top: -240px;
+    left: 0px;
+    top: 40px;
     
 }
 
@@ -83,6 +83,7 @@
     line-height: 166.9%;
     padding-top: 45px;
     padding-bottom: 45px;
+    max-width: 400px;
 }
 
 .home-content-btn button:nth-child(1){
@@ -115,6 +116,17 @@
     transition: 0.3s;
 }
 
+@media(max-width:1550px){
+    .home-img{
+        left: -150px;
+    }
+}
+@media(max-width:1350px){
+    .home-img{
+        left: -170px;
+    }
+}
+
 @media(max-width:1300px){
     .home-content{
         padding-left: 7%;
@@ -122,21 +134,21 @@
     }
 
     .home-img{
-        left: -180px;
+        left: -220px;
     }
 }
 
 @media(max-width:930px){
     .home-img{
-        left: -690px;
-        top: 280px;
+        left: -490px;
+        top: 450px;
         z-index: 0;
-        background-image: url(/static/img/Grouphhh11587.png);
+        background-image: url(/static/img/img-AboutM.png);
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
-        width: 916px;
-        height: 665px;
+        width: 674.164px;
+        height: 354.833px;
     }
     .home-content{
         position: relative;

@@ -1,0 +1,96 @@
+.insights{
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 180px;
+    margin-top: 180px;
+}
+
+.insights-head{
+    height: 83px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.insights-head-h h3{
+    color: var(--title, #131414);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145.4%; /* 20.356px */
+    text-transform: uppercase;
+}
+
+.insights-head-h h2{
+    color: var(--dark-green, #217191);
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    position: relative;
+    bottom: 0;
+}
+
+.insights-head button{
+    width: 190px;
+    height: 60px;
+    border-radius: 60px;
+    background: var(--brown, #C7A48B);
+    color: var(--white, #FFF);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.insights-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.insights-card{
+    max-width: 400px;
+    height: auto;
+    
+
+}
+
+.insights-card h3{
+    color: var(--text, #494B51);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+}
+
+.insights-card h2{
+    color: var(--title, #131414);
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 131%; /* 32.75px */
+}
+.insights-card p{
+    color: var(--text, #494B51);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+}
+
+@media(max-width:650px){
+    .insights-head button{
+        display: none;
+    }
+}

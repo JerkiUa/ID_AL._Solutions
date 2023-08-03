@@ -1,0 +1,227 @@
+.img-project{
+    background-image: url(/static/img/img-project.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 480px;
+    width: 580px;
+}
+
+.projects{
+    margin-top: 110px;
+    margin-bottom: 180px;
+}
+.projects-conteiner {
+    max-width: 1154px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.projects-header {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.projects-header p{
+    color: var(--title, #131414);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 145.4%;
+    text-transform: uppercase;
+}
+
+.projects-header h2{
+    color: #217191;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.swiper {
+    width: 1000px;
+    height: 480px;
+    
+}
+.mySwiper {
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+    display: flex;
+    max-width: 1154px;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-project {
+}
+.project-case h3 {
+    color: var(--title, #131414);
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.project-case{
+    
+    width: 484px;
+}
+.project-case p:nth-child(2) {
+    color: #D0D0D0;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.project-case p:nth-child(4){
+    color: var(--text, #494B51);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166.9%;
+}
+.specialization {
+}
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev{
+    right: -170px !important; 
+    left: auto;
+    top: 250px !important;
+
+    position: absolute;
+
+  }
+  .swiper-button-prev, .swiper-rtl .swiper-button-next{
+    left: -170px !important; 
+    right: auto;
+    top: 250px !important;
+    position: absolute;
+  }
+
+  .swiper-btn{
+    position: relative;
+    max-width: 2000px;
+  }
+
+  @media(max-width:1550px){
+    .swiper-button-next{
+        right: -100px !important;
+
+    }
+    .swiper-button-prev{
+        left: -100px !important;
+
+    }
+  }
+  @media(max-width:1450px){
+    .swiper-button-next{
+        right: -50px !important;
+
+    }
+    .swiper-button-prev{
+        left: -50px !important;
+
+    }
+  }
+  @media(max-width:1350px){
+    .swiper-button-next{
+        right: 0px !important;
+
+    }
+    .swiper-button-prev{
+        left: 0px !important;
+
+    }
+  }
+  @media(max-width:1250px){
+    .swiper-button-next{
+        right: 60px !important;
+
+    }
+    .swiper-button-prev{
+        left: 60px !important;
+
+    }
+    .img-project{
+        height: 380px;
+        width: 480px;
+    }
+    .project-case{
+        width: 400px;
+    }
+    .swiper{
+        width: 830px;
+    }
+  }
+  @media(max-width:1000px){
+    .swiper-button-next.swiper-navBtn{
+        display: none !important;
+
+    }
+    .swiper-button-prev{
+        display: none !important;
+
+    }
+    .swiper-btn{
+        display: none !important;
+    }
+    .img-project{
+        height: 280px;
+        width: 380px;
+    }
+    .project-case{
+        width: 300px;
+    }
+    .swiper{
+        width: 700px;
+    }
+  }
+
+  @media(max-width:750px){
+    .img-project{
+        height: 280px;
+        width: 380px;
+    }
+    .project-case{
+        width: 300px;
+    }
+    .swiper-slide{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .swiper{
+        width: 380px;
+    }
+  }
+
+  @media(max-width:450px){
+    .img-project{
+        height: 180px;
+        width: 280px;
+    }
+    .project-case{
+        width: 300px;
+    }
+    .swiper-slide{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .swiper{
+        width: 320px;
+    }
+    .project-case p:nth-child(4){
+        font-size: 16px;
+    }
+  }

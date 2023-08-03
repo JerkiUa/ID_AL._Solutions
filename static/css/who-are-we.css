@@ -1,0 +1,137 @@
+.who-are-we{
+    max-width: 1780px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    background: #E7ECF5;
+    padding-bottom: 80px;
+}
+
+.who-are-we-p{
+    color: var(--text, #494B51);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.714px;
+    max-width: 1060px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+
+.who-are-we h2{
+    color: #217191;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.who-are-we h3{
+    padding-top: 110px;
+
+    color: var(--title, #131414);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145.4%;
+    text-transform: uppercase;
+}
+
+.who-are-we-card{
+    width: 400px;
+    height: 517px;
+    border-radius: 30px;
+    background: var(--white, #FFF);
+    position: relative;
+}
+.who-are-we-block{
+    display: grid;
+    /* Автоматически заполняем на всю ширину grid-контейнера */
+    grid-template-columns: repeat(auto-fill, 400px);
+    width: 100%;
+    max-width: 1280px; /* Ширина grid-контейнера */
+    justify-content: center;
+    justify-items: center; /* Размещаем карточку по центру */
+    column-gap: 40px; /* Отступ между колонками */
+    row-gap: 20px; /* Отступ между рядами */
+    margin: 0 auto 0 auto;
+    height: auto;
+    
+}
+
+.who-are-we-card-content {
+    width: 330px;
+    height: 437px;
+    position: absolute;
+    top: 8%;
+    bottom: 10%;
+    left: 8%;
+    right: 10%;
+    
+    text-align: center;
+}
+
+.who-are-we-card-content h4{
+    padding-top: 35px;
+    padding-bottom: 8px;
+    color: var(--title, #131414);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.who-are-we-card-content h5{
+    color: #AAA;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145.4%;
+    text-transform: uppercase;
+    padding-bottom: 35px;
+}
+
+.who-are-we-card-content p{
+    color: var(--title, #131414);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166.9%;
+}
+
+
+
+@media(max-width:500px){
+    .who-are-we-card{
+        width: 300px;
+        height: 417px;
+    }
+    .who-are-we-card{
+        height: 430px;
+    }
+    .who-are-we-card-content{
+        width: 230px;
+        height: 297px;
+    }
+    .who-are-we-card-content h5{
+        padding-bottom: 15px;
+    }
+}

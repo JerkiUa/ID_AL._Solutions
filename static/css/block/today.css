@@ -1,0 +1,78 @@
+.today{
+    max-width: 1780px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 440px;
+    
+}
+.today-conteiner{
+    position: relative;
+}
+.today-block{
+    width: 100%;
+    position: absolute;
+    border-radius: 40px;
+    background: #217191;
+    background-image: url(/static/img/elipseToday.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.today-content{
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 110px 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.today-content button{
+    width: 190px;
+    height: 60px;
+    border-radius: 60px;
+    background: #C7A48B;
+    color: var(--white, #FFF);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.today-content-text{
+    max-width: 840px;
+}
+.today-content-text h3{
+    color: var(--white, #FFF);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 145.4%; /* 20.356px */
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 10px 15px;
+    width: 110px;
+    height: 20px;
+    background: rgba(13, 93, 125, 0.50);
+}
+.today-content-text h2{
+    color: var(--white, #FFF);
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.today-content-text p{
+    color: var(--white, #FFF);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166.9%; /* 30.042px */
+}

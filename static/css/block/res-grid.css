@@ -1,0 +1,61 @@
+.res-grid{
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+
+.grid-cards{
+    display: none;
+
+}
+
+.el {
+    padding: 15px 35px;
+    font-size: 21px;
+    color: #fff;
+    background: lightblue;
+    border: 2px dashed #aaa;
+    grid-template-columns: 150px 20vw auto 1fr;
+
+ }
+/* .container2 {
+    display: grid;
+    gap: 20px;
+
+    grid-template-columns: repeat(4, 250px);
+    grid-template-rows: repeat(4, 180px);
+    grid-template-areas: 
+    "el-1 el-1 pr-3 pr-4"
+    "el-2 el-2 pr-3 pr-4"
+    "pr-7 pr-8 el-3 el-3"
+    "pr-7 pr-8 el-4 el-4";
+    
+
+ } */
+
+ .grid-cards {
+    display: grid;
+    gap: 20px;
+    row-gap: 20px;
+    grid-template-columns: repeat(2, 610px);
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: 
+    "el1 el2"
+    "el1 el2"
+    "el1 el4"
+    "el3 el4"
+    "el3 el4";
+    
+
+ }
+
+ .el1{grid-area: el1;}
+ .el2{grid-area: el2;}
+ .el3{grid-area: el3;}
+ .el4{grid-area: el4;}
+ .pr-3{grid-area: pr-3;}
+ .pr-4{grid-area: pr-4;}
+ .pr-7{grid-area: pr-7;}
+ .pr-8{grid-area: pr-8;}
+
